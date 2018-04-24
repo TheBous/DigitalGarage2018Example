@@ -11,7 +11,6 @@ class App extends Component {
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
-                    <h2 className="App-title">Digital Garage 2018</h2>
                 </header>
                 <BasicComponentArrow/>
                 <FatherComponent />

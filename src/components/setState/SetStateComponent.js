@@ -1,6 +1,7 @@
 import React from 'react';
 import {userService} from "../completeExample/services/UserService";
 import {UserList} from "../completeExample/component/UserList";
+import { Button } from 'react-materialize';
 
 export default class SetStateComponent extends React.Component {
 
@@ -53,7 +54,7 @@ export default class SetStateComponent extends React.Component {
         return (
             <div>
                 <h1>Stateful Component</h1>
-                <button onClick={() => this.changeState()}>Change state</button>
+                <Button onClick={() => this.changeState()}>Change state</Button>
                 <h3>{this.state.counter}</h3>
                 <UserList users={this.state.users}/>
             </div>
